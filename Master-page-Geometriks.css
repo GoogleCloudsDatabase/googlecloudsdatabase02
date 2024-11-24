@@ -9,6 +9,77 @@ body
    margin: 0;
    padding: 0;
 }
+a.Fx_link_Whatsapp
+{
+   color: #1973B5;
+   font-weight: bold;
+   text-decoration: none;
+   transition: all 300ms ease-in;
+   position: relative;
+   display: inline-block;
+}
+a.Fx_link_Whatsapp::after
+{
+   background: transparent;
+   content: "";
+   display: block;
+   height: 0;
+   width: 100%;
+   margin-top: 2px;
+   transition: all 300ms ease-in;
+}
+a.Fx_link_Whatsapp:hover::after
+{
+   background: #1973B5;
+   height: 2px;
+}
+a.Fx_link_Whatsapp:visited
+{
+   color: #1973B5;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: none;
+}
+a.Fx_link_Whatsapp:active
+{
+   color: #1973B5;
+   font-weight: bold;
+   text-decoration: none;
+}
+a.Fx_link_Whatsapp:hover
+{
+   color: #1973B5;
+   font-weight: bold;
+   text-decoration: none;
+}
+h1, .h1
+{
+   font-family: Poppins;
+   font-weight: bold;
+   font-size: 29px;
+   text-align: center;
+   line-height: 56.13px;
+   text-decoration: none;
+   color: #1E1E1E;
+   --color: #1E1E1E;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   --color: #505050;
+   display: inline;
+}
+@media only screen and (max-width: 768px)
+{
+}
+@media only screen and (max-width: 425px)
+{
+}
+@media only screen and (max-width: 375px)
+{
+}
+@media only screen and (max-width: 320px)
+{
+}
 #wb_masterpage_LayoutGrid1
 {
    clear: both;
@@ -1601,9 +1672,25 @@ body
    margin: 0;
    text-align: center;
 }
+#wb_uid5
+{
+   color: #1E1E1E;
+}
 #hiddenConfirm
 {
    display: none;
+}
+#wb_uid4
+{
+   color: #1E1E1E;
+}
+#wb_uid3
+{
+   color: #393939;
+}
+#wb_uid2
+{
+   color: #1973B5;
 }
 #wb_Agencia-Geometriks_Branding
 {
@@ -1627,6 +1714,14 @@ body
    width: 100%;
    line-height: 16px;
    z-index: 7;
+}
+#wb_uid1
+{
+   color: #393939;
+}
+#wb_uid0
+{
+   color: #1973B5;
 }
 #wb_L10IconInst
 {
@@ -1709,6 +1804,10 @@ body
    width: 560px;
    height: 50px;
    z-index: 4;
+}
+#wb_uid6
+{
+   color: #1E1E1E;
 }
 #wb_L2Logo
 {
